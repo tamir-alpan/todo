@@ -1,0 +1,67 @@
+body {
+    margin-top: 100px;
+    background-color: rgb(132, 119, 243);
+}
+main {
+    width: 375px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    transition: 0.1s;
+    background-color: rgb(31, 231, 205);
+    font-family: fantasy;
+    font-weight: lighter;
+    box-shadow: 10px 10px 8px black;
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+li:hover {
+    background-color: rgb(227, 250, 96);
+    cursor: pointer;
+    font-weight: initial
+}
+
+img {
+    width: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#timeAndDate {
+    background-color: rgb(238, 141, 222);
+    transition: 0.8s ;
+    box-shadow: 5px 10px;
+    border-radius:50%;
+    width: 130px;
+    height: 130px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    left: 0; 
+    top: 0;
+    margin: 32px;  
+}
+
+#timeAndDate:hover {
+    cursor: pointer;
+    background-color: rgb(215, 243, 60);
+}
+
+.add-todo-button {
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 32px;
+}
